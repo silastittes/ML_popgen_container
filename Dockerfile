@@ -18,8 +18,8 @@ RUN pip3 install tensorflow \
 && pip3 install keras_applications==1.0.4 --no-deps \
 && pip3 install keras_preprocessing==1.0.2 --no-deps \
 && pip3 install h5py==2.8.0 \
-&& pip3 install tables
-&& pip3 install joblib
+&& pip3 install tables \
+&& pip3 install joblib \
 && pip3 install msprime
 
 #HTSLIB FROM GITHUB
